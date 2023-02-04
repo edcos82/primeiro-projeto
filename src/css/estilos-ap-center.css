@@ -22,7 +22,7 @@ body {
 
 .cabecalho nav li a {
     font-weight: bold;
-    color: rgb(111, 161, 144);
+    color: rgb(151, 79, 31);
     font-size: 25px;
     padding: 10px 20px;
     border-radius: 50px;
@@ -30,7 +30,7 @@ body {
 }
 
 .cabecalho nav li a:hover {
-    background-color: rgb(15, 49, 38);
+    background-color: rgb(190, 110, 18);
 }
 
 
@@ -49,15 +49,15 @@ body {
 }
 
 .container .descricao {
-    color: rgb(111, 161, 144);
+    color: rgb(172, 92, 47);
     width: 85%;
     font-size: 18px;
     margin: 30px 0;
 }
 
 .container .botao-trailer {
-    background-color: rgb(3, 36, 25);
-    color: aquamarine;
+    background-color: rgba(175, 105, 14, 0.699);
+    color: rgb(231, 148, 39);
     padding: 15px;
     font-size: 18px;
     font-weight: bold;
@@ -92,7 +92,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg, rgba(0,0,0,0.9948354341736695) 5%, rgba(66,242,8,0.26) 50%, rgba(0,0,0,1) 95%);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9948354341736695) 5%, rgba(230, 196, 7, 0.26) 50%, rgba(0,0,0,1) 95%);
 }
 
 .modal {
@@ -101,7 +101,7 @@ body {
     height: 100vh;
     top: 0;
     left: 0;
-    background-color: rgba(66, 242, 8, 0.2);
+    background-color: rgba(221, 128, 52, 0.74);
     opacity: 0;
     visibility: hidden;
 }

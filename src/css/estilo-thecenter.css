@@ -1,0 +1,229 @@
+
+body {
+    font-family: 'Poppins';
+}
+
+/* aba  div cabe,menu*/
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cabecalho .logo {
+    width: 65px;
+}
+
+.cabecalho .menu{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.cabecalho nav li a {
+    font-weight: bold;
+    color: rgb(111, 161, 144);
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.cabecalho nav li a:hover {
+    background-color: rgb(15, 49, 38);
+}
+
+.cabecalho nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+.cabecalho nav ul li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(204, 123, 18);
+    padding: 10px;
+}
+
+/* aba  div cabe,menu*/
+
+
+.container .dlc {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgb(221, 207, 176);
+    border: 5px solid rgba(235, 183, 14, 0.7);
+    padding: 10px;
+}
+
+aa.botao-container {
+width: 500px;
+height: 220px;
+background-color: rgb(249, 250, 215);
+border: 5px solid rgba(65, 6, 202, 0.7);
+padding: 15px;
+flex-wrap: wrap;
+align-content: space-between;
+float: left;
+}
+
+.dlcimagem {
+width: 280px;
+height: 126px;
+}
+
+.sob-the-center {
+width: 900px;
+height: 2000px;
+background-color: rgb(212, 89, 17);
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 5px;   
+}
+
+.ale {
+width: 400px;
+height: 1000px;
+background-color: rgb(0, 255, 149);
+padding: 10px 10px;
+border: 5px solid rgba(173, 129, 7, 0.7);
+}
+
+/* aba  div island*/
+
+.the-center {
+width: 480px;
+height: 1000px;
+background-color: rgb(189, 154, 91);
+padding: 10px;
+border: 5px solid rgba(151, 134, 76, 0.7);
+align-items: center;
+flex-direction: column;
+display: flex;
+}
+
+.imgthe-center{
+width: 460px;
+height: 260px;
+border: 5px solid rgba(202, 6, 55, 0.7);
+}
+
+.logoplat {
+width: 20px;
+height: 20px;
+}
+
+.blocoloja {
+width: 420px;
+height: 250px;
+background-color: rgb(6, 139, 46);
+margin-top: 15px; 
+padding: 5px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+align-items: center;
+row-gap: 5px;
+column-gap: 5px;
+
+}
+
+.botao-jogo {
+background-color: rgb(6, 42, 139);
+text-align: center;
+border-radius: 10px;
+width: 125px;
+height: 70px;
+user-select: none;
+cursor: pointer;
+outline: none;
+display: inline-block;
+text-align: center;
+}
+
+a.botao-jogo {
+background-color: rgb(6, 42, 139);
+color: rgb(10, 34, 26);
+padding: 5px;
+font-size: 15px;
+font-weight: bold;
+border-radius: 10px;
+user-select: none;
+cursor: pointer;
+outline: none;
+display: inline-block;
+width: 127px;
+height: 77px;
+
+}   
+
+.botao-jogo:hover {
+background-color: rgb(39, 72, 163);
+transition: 0.8s;
+}
+
+.officialtrailler001 {
+width: 460px;
+height: 260px;
+/*border: 5px solid rgba(202, 6, 55, 0.7); */
+margin-top: 15px;
+}
+
+/**/
+
+
+
+/*
+.sobjogo {
+width: 300px;
+height: 580px;
+background-color: brown;
+}
+
+*/
+
+
+.txt001 {
+font-size: 25px;
+padding: 10px ;
+
+}
+.txt002 {
+font-size: 18px;
+padding: 15px;
+}
+
+.txt003 {
+font-size: 18px;
+padding: 15px;
+font-weight: bold;
+color: rgb(111, 0, 255);
+}
+
+.txtloja {
+font-size: 18px;
+padding: 15px;
+font-weight: bold;
+text-align: center;
+}
+
+.barra001 {
+color: blc;
+width: 90%;
+margin-top: 10px
+}

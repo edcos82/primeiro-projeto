@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
     body {
-       background-color: #284426;
+       background-color: #f44336;
     }
 
     .fundo-video {
@@ -14,8 +14,8 @@
         gap: 30px;
     }
 
-    .container .raptor {
-        max-width: 80%;
+    .container .mario {
+        max-width: 50%;
     }
 
     .container .informacoes {
