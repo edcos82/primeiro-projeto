@@ -1,0 +1,467 @@
+@media (max-width: 360px) {
+    body {
+        background-color:  red;
+    }
+
+
+     .container { 
+        max-width: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .cabecalho {
+        width: 320px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        border: 5px solid red;
+    }
+
+    .menu {
+        width: 325px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .arena {
+        width: 325px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .imagembrod {
+        width: 300px;
+        align-items: center;
+        flex-direction: column;
+        display: block;
+    }
+
+    .bossbrod {
+        width: 50%;
+        align-items: center;
+        flex-direction: column;
+        display:block;
+    }
+
+    .myAudio {
+        margin-top: 10px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .vidbossbrood {
+        width: 340px;
+        height: 290px;
+        
+    }    
+
+    .recursosboss {
+        width: 320px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .recursosboss {
+        width: 320px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .lvlboss {
+        width: 60%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .tex_arena_bood {
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .txt_boss_lvl {
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    
+    .arenabrood {
+        width: 320px;
+        display: flex;
+        align-items: center;
+    }
+
+    .drops {
+        width: 320px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .rec1 {
+        width: 300px;
+        text-align: center;
+    }
+    
+    .gamma_unlok {
+        width: 300px;
+    }
+
+    .beta_unlok {
+        width: 300px;
+    }
+
+    .alpha_unlok {
+        width: 300px;
+    }
+
+    .beta-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gamma-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .alpha-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color:  red;
+    }
+
+    .container { 
+        max-width:100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .cabecalho {
+        width: 350px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .menu {
+        width: 325px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .arena {
+        width: 350px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .imagembrod {
+        width: 360px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .bossbrod {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .myAudio {
+        margin-top: 10px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .vidbossbrood {
+        width: 340px;
+        height: 290px;
+        
+    }    
+
+    .recursosboss {
+        width: 340px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .recursosboss {
+        width: 320px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .lvlboss {
+        width: 60%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .tex_arena_bood {
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .txt_boss_lvl {
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    
+    .arenabrood {
+        width: 320px;
+        display: flex;
+        align-items: center;
+    }
+
+
+}
+
+/*
+@media screen and (max-width: 900px) {
+    body {
+        background-color:  red;
+    }
+
+    .container { 
+        max-width: 870px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .cabecalho {
+        width: 80%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .menu {
+        width: 80%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .arena {
+        width: 80%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .imagembrod {
+        width: 360px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .bossbrod {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .myAudio {
+        margin-top: 10px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .vidbossbrood {
+        width: 560px;
+        height: 315px;
+        
+    }    
+
+    .recursosboss {
+        width: 950px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .lvlboss {
+        width: 950px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .tex_arena_bood {
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .txt_boss_lvl {
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    
+    .arenabrood {
+        width: 320px;
+        display: flex;
+        align-items: center;
+    }
+
+    .lvlboss001 gamma {
+        width: 70%;
+
+    }
+
+
+}   */
+
+/*
+@media screen and (max-width: 1024px) {
+    body {
+        background-color:  red;
+    }
+
+    .container { 
+        max-width: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .cabecalho {
+        width: 80%;
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+    }
+    
+    .menu {
+        width: 80%;
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .arena {
+        width: 80%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .imagembrod {
+        width: 360px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .bossbrod {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .myAudio {
+        margin-top: 10px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+
+    }
+
+    .vidbossbrood {
+        width: 560px;
+        height: 315px;
+        
+    }    
+
+    .recursosboss {
+        width: 950px;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .lvlboss {
+        width: 950px;
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .tex_arena_bood {
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .txt_boss_lvl {
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    
+   
+    .lvlboss001 gamma {
+        width: 70%;
+
+    }
+
+
+}
+
+*/

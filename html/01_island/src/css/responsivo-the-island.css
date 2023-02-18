@@ -1,0 +1,284 @@
+@media screen and (max-width: 400px) {
+        body {
+                background-image: url(../imagens/the_island.png);
+                background-repeat: no-repeat;
+                 background-size: cover;
+                 background-position: center;
+                 background-attachment: fixed;
+                 margin: 0;
+                 padding: 0;
+             }
+
+/*==========cabecalho======== */
+.cabecalho {
+        width: 320px; align-items: center; flex-direction: column; display: flex;
+}
+
+.menu {
+        width: 325px; align-items: center; flex-direction: column; display: flex;
+}
+/*==========cabecalho======== */
+
+/*=====================Pag============================================ */
+.container { 
+         width: 360px; flex-direction: column; height: auto; align-items: center
+}
+
+.Bloco004 { 
+        width: 360px; flex-direction: column; align-items: center
+}
+
+.bloco01 {
+        width: 380px; display: block; flex-direction: column; align-items: center
+}
+
+.sob-island  {
+        width: 360px; display: flex; flex-direction: column; align-items: center
+}
+
+.island_inf {
+        width: 360px; flex-direction: column; align-items: center
+}
+
+.ale {
+        width: 360px; flex-direction: column; align-items: center
+        
+}
+
+.island {
+        width: 360px; flex-direction: column; align-items: center
+}
+/*=====================Pag=============================================*/
+
+/*======================Plataformas====================================*/
+.blocoloja {
+        width: 360px; 
+        display: flex; 
+        box-sizing: border-box; 
+        padding: 5px; 
+        flex-direction: column; 
+        align-items: center;
+}     
+
+.botao-001 {
+        width: 360px; 
+        flex-direction: column; 
+        align-items: center;
+}
+
+.botao-jogo {
+        width: 80%; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+        margin-top: 10px;
+}
+
+.txtloja {
+        flex-direction: column; 
+        align-items: center;
+}
+
+.txt002 {
+        flex-direction: column; 
+        align-items: center; 
+        background-color: rgba(98, 132, 226, 0.5); 
+        border-radius: 10px; 
+        font-size: 20px;
+        margin-top: 20px;
+}
+
+.imgtheisland {
+        width: 330px; height: 152px;
+}
+
+/*======================Plataformas====================================*/
+
+
+.txt_inf {
+        width: 310px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(98, 132, 226, 0.5);
+        border-radius: 10px;
+        font-size: 18px;
+}
+
+.officialtrailler001 {
+        width: 330px;
+        height: 167px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+        display: flex;
+
+
+}
+
+.officialtrailler002  {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+}   
+
+.video {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 320px;
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+}
+
+/* ===================================ARENA BOSS=======================================*/
+/* ===================================ARENA BOSS=======================================*/
+.boos_001 {
+        width: 360px;
+        align-items: center;
+        margin: 5px;
+        padding: 2px;
+}
+
+.arena {
+        width: 360px;
+        
+}
+
+.arena_boss {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.broodmoher {
+        width: 350px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color:rgba(2, 86, 165, 0.5);
+        display: flex;
+        justify-content: space-between;
+        
+}
+
+.megapithecus {
+        width: 350px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+        background-color:rgba(2, 86, 165, 0.5);
+        display: flex;
+        justify-content: space-between;
+}
+
+.dragon {
+        width: 350px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color:rgba(2, 86, 165, 0.5);
+        display: flex;
+        justify-content: space-between;
+}
+
+.cave-tek {
+        width: 350px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color:rgba(2, 86, 165, 0.5);
+        display: flex;
+        justify-content: space-between;
+}
+
+.caixatextoboss {
+
+        width: 310px;
+        font-size: 18px;
+        letter-spacing: 1px;
+}
+
+.textboss {
+        width: 310px;
+        padding: 5px;
+        background-color: transparent;
+        
+}
+
+.infboss {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+}
+/* ===================================ARENA BOSS=======================================*/
+/* ===================================ARENA BOSS=======================================*/   
+
+   
+.dlc {
+        margin-top: 15%;
+        width: 360px;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        
+}
+/*==================================galeria De Image==============================*/
+
+/*     =====Buscando Manuntenção  
+
+.galeria_img {
+        width: 340px;
+        margin: 0 auto;
+    }
+    
+    .cover {
+        float: left;
+        width: 340px;
+        margin-top: 20px;
+        border: 3px solid rgb(0, 255, 0);
+    }
+    
+    .thumbs {
+        float: left;
+        width: 340px;
+        margin-top: 20px;
+    }
+    
+    .thumbs li{
+        float: left;
+        width: 100%;
+        border: 2px solid red;
+        width: calc((100% -10%)  / 4.5);
+        cursor: pointer;
+    }
+    
+    .thumbs li:not(:last-child){
+        margin-right: 2%;
+    }    
+    
+    .thumbs li:hover{
+        border: 2px solid royalblue;
+    }
+    
+    .thumbs li.active{
+        border: 2px solid rgb(0, 255, 0);
+    }
+    
+    img{
+        max-width: 100%;
+    }
+
+    */
+    /*==================================galeria De Image==============================*/
+
+
+}    
