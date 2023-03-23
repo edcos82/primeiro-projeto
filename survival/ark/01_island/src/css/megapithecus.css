@@ -1,0 +1,116 @@
+body {
+    font-family: 'Poppins';
+    max-width: 1280px;
+    margin: 0 auto 0 auto;
+}
+
+/* ============ cabecalho ===============  */
+.containder {
+    display: flex;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cabecalho .logo {
+    width: 65px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.cabecalho nav li a {
+    font-weight: bold;
+    color: rgb(111, 161, 144);
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.cabecalho nav li a:hover {
+    background-color: rgb(15, 49, 38);
+}
+
+.cabecalho nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+.cabecalho nav ul li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+body {
+    font-family: 'Poppins';
+    max-width: 1440px;
+    margin: 0 auto 0 auto;
+}
+
+body {
+    background-image: url(../imagens/theisland/arena-megapithecus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bloco-megapithecus {
+    border: 2px solid blue;
+    
+    flex-direction: row;
+    display: flex;
+}
+
+.caixa-texto {
+    background-color: rgba(11, 190, 235, 0.5);
+    margin: 5px;
+}
+
+.titboss {
+    text-align: center;
+}
+
+.textboss {
+    color: rgb(23, 23, 24);
+    font-size: 18px;
+    font-weight: bold;
+    width: 80%;
+    
+}
+
+.caixa-megapithecus {
+    display: flexbox;
+    background-color: rgba(11, 190, 235, 0.5);
+    margin: 5px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    }
+
+.logoplat {
+    width: 75px;
+    margin-left: 15px;
+   
+}
+
+.versaomega .icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.txt-versao {
+    text-align: center;
+    color: azure;
+}
