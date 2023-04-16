@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Megapithecus</title>
+    <link rel="shortcut icon" href="/Survival/Ark/Img/logo/ark-logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/mestre.css">
+
+</head>
+
+<body class="megapithecus">
+    <div id="header">
+        <div class="container-lg box-color nav-box">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <img src="/Survival/Ark/Img/logo/ark-logo.png" class="img-fluid">
+                    <a class="navbar-brand" href="/Survival/Ark/the-island/the-island.html">The Island</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100vh;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Pag. Inicial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Survival</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Boss
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="/Survival/Ark/the-island/broodmother.html">Broodmother</a></li>
+                                    <li><a class="dropdown-item" href="/Survival/Ark/the-island/dragon.html">Dragon</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Cave Tek</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Primitive</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Link</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Procurar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+
+    <div id="box-brood">
+        <div class="container box-color">
+            <div class="row">
+                <h1>Megapithecus</h1>
+                <div class="col-lg-12 box-broodmohter">
+
+                    <div class="col-lg-12">
+                        <img class="img-fluid" alt="icos-witch" src="/Survival/Ark/Img/boss/megapit001.png">
+                    </div>
+                    <div class="col-lg-12">
+                        <audio class="myAudio" controls>
+                            <source src="/Survival/Ark/arquivos/som-dinos/Megapithecus Sound Effects.mp4"
+                                type="audio/mpeg">
+                        </audio>
+                    </div>
+
+                    <h5> Portal do Megapithecus pode ser aberto no Obelisco Azul.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="box-gamma">
+        <div class="container box-color box-tributo">
+            <div class="row">
+                <h1>Requisitos Para </h1>
+                <h5>Essess itens são necessários para abrir o Portal Megapithecus</h5>
+
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <table class="table table-bordered align-middle table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Itens Necessários</th>
+                                    <th scope="col"><img src="/Survival/Ark/Img/boss/megapithecus_gamma-75.png"
+                                            class="img-fluid">
+                                        <h5>Gama</h5>
+                                    </th>
+                                    <th scope="col"><img src="/Survival/Ark/Img/boss/megapithecus_beta-75.png"
+                                            class="img-fluid">
+                                        <h5>Beta</h5>
+                                    </th>
+                                    <th scope="col"><img src="/Survival/Ark/Img/boss/megapithecusalpha-75.png"
+                                            class="img-fluid">
+                                        <h5>Alpha</h5>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Nivel do Jogador</th>
+                                    <td class="inf-tab text-success">45</td>
+                                    <td class="inf-tab text-primary">65</td>
+                                    <td class="inf-tab text-danger">85</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="/Survival/Ark/Img/artef_icon/artefato_do_bruto.png"
+                                            class="img-fluid">
+                                        <h6>Artefato do Bruto</h6>
+                                    </th>
+                                    <td class="inf-tab text-success">1</td>
+                                    <td class="inf-tab text-primary">1</td>
+                                    <td class="inf-tab text-danger">1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="/Survival/Ark/Img/artef_icon/artefato_do_devorador.png"
+                                            class="img-fluid">
+                                        <h6>Artefato do Devorador</h6>
+                                    </th>
+                                    <td class="inf-tab text-success">1</td>
+                                    <td class="inf-tab text-primary">1</td>
+                                    <td class="inf-tab text-danger">1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="/Survival/Ark/Img/artef_icon/artefato_da_alcateia.png"
+                                            class="img-fluid">
+                                        <h6>Artefato da Alcateia</h6>
+                                    </th>
+                                    <td class="inf-tab text-success">1</td>
+                                    <td class="inf-tab text-primary">1</td>
+                                    <td class="inf-tab text-danger">1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="/Survival/Ark/Img/Trofeus/Megalania_Toxin.png"
+                                            class="img-fluid">
+                                        <h6>Toxina de Megalania</h6>
+                                    </th>
+                                    <td class="inf-tab text-success">0</td>
+                                    <td class="inf-tab text-primary">5</td>
+                                    <td class="inf-tab text-danger">10</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="/Survival/Ark/Img/Trofeus/Megalodon_Tooth.png"
+                                            class="img-fluid">
+                                        <h6>Dente de Megalodonte</h6>
+                                    </th>
+                                    <td class="inf-tab text-success">0</td>
+                                    <td class="inf-tab text-primary">5</td>
+                                    <td class="inf-tab text-danger">10</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="/Survival/Ark/Img/Trofeus/Spinosaurus_Sail.png"
+                                            class="img-fluid">
+                                        <h6>Vela de Spinossauro</h6>
+                                    </th>
+                                    <td class="inf-tab text-success">0</td>
+                                    <td class="inf-tab text-primary">5</td>
+                                    <td class="inf-tab text-danger">10</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="/Survival/Ark/Img/Trofeus/Therizino_Claws.png"
+                                            class="img-fluid">
+                                        <h6>Garras de Therizino</h6>
+                                    </th>
+                                    <td class="inf-tab text-success">0</td>
+                                    <td class="inf-tab text-primary">5</td>
+                                    <td class="inf-tab text-danger">10</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="/Survival/Ark/Img/Trofeus/Thylacoleo_Hook-Claw.png"
+                                            class="img-fluid">
+                                        <h6>Garras de Leão Marsipial</h6>
+                                    </th>
+                                    <td class="inf-tab text-success">0</td>
+                                    <td class="inf-tab text-primary">5</td>
+                                    <td class="inf-tab text-danger">10</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4">Loots</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"><img src="/Survival/Ark/Img//drops/Element_32.png"
+                                            class="img-fluid">
+                                        <h6>Elemento</h6>
+                                    </th>
+                                    <td class="inf-tab text-success">40</td>
+                                    <td class="inf-tab text-primary">110</td>
+                                    <td class="inf-tab text-danger">220</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td><img src="/Survival/Ark/Img/boss/Beta_Megapithecus_Trophy_resized.png"
+                                            class="img-fluid">
+                                        <h6>Troféu Megapithecus Gama</h6>
+                                    </td>
+                                    <td><img src="/Survival/Ark/Img/boss/Gama_Megapithecus_Trophy_resized.png"
+                                            class="img-fluid">
+                                        <h6>Troféu Megapithecus Beta</h6>
+                                    </td>
+                                    <td><img src="/Survival/Ark/Img/boss/Alpha_Megapithecus_Trophy_resized.png"
+                                            class="img-fluid">
+                                        <h6>Troféu Megapithecus Alfa</h6>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row"></th>
+                                    <td colspan="3"><img src="/Survival/Ark/Img/drops/Gorilla_Flag.png"
+                                            class="img-fluid">
+                                        <h6>Megapithecus Flag</h6>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="box-carrosel-tek">
+        <div class="container box-color box-desbloqueia">
+            <div class="box_tek">
+                <h1>Desbloqueia</h1>
+                <div class="col-lg-12">
+
+                    <div class="box_imagem">
+
+                        <div class="botao-carrossel">
+                            <button class="botao selecionado">Gama</button>
+                            <button class="botao">Beta</button>
+                            <button class="botao">Alpha</button>
+
+                        </div>
+
+                        <div class="col-lg-12 carrossel box-desbloqueia-2">
+                            <div class="imagem ativa">
+                                <div class="row">
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Fundação Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Gauntlets.png"><a href="#">
+                                            <p>Manoplas Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Replicador Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Replicator.png"><a href="#">
+                                            <p>Replicador Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek Triângulo"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Hatchframe.png">
+                                        <a href="#">
+                                            <p>Tek Hatchframe</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Tek Replicator"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Trapdoor.png"><a href="#">
+                                            <p>Tek_Replicator</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Window.png">
+                                        <a href="#">
+                                            <p>Janela Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Windowframe.png">
+                                        <a href="#">
+                                            <p>Tek Windowframe</p>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="imagem">
+                                <div class="row">
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Fundação Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Gauntlets.png"><a href="#">
+                                            <p>Manoplas Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Replicador Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Replicator.png"><a href="#">
+                                            <p>Replicador Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek Triângulo"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Hatchframe.png">
+                                        <a href="#">
+                                            <p>Tek Hatchframe</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Tek Replicator"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Trapdoor.png"><a href="#">
+                                            <p>Tek_Replicator</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Window.png">
+                                        <a href="#">
+                                            <p>Janela Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Windowframe.png">
+                                        <a href="#">
+                                            <p>Tek Windowframe</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Dinosaur_Gate.png">
+                                        <a href="#">
+                                            <p>Portão Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Dinosaur_Gateway.png">
+                                        <a href="#">
+                                            <p>Portão Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Door.png">
+                                        <a href="#">
+                                            <p>Porta Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Doorframe.png">
+                                        <a href="#">
+                                            <p>Batente Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Generator.png">
+                                        <a href="#">
+                                            <p>Gerador Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Rifle.png">
+                                        <a href="#">
+                                            <p>Rifle Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Trough.png">
+                                        <a href="#">
+                                            <p>Cocho Tek</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="imagem">
+                                <div class="row">
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Fundação Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Gauntlets.png"><a href="#">
+                                            <p>Manoplas Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Replicador Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Replicator.png"><a href="#">
+                                            <p>Replicador Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek Triângulo"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Hatchframe.png">
+                                        <a href="#">
+                                            <p>Tek Hatchframe</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Tek Replicator"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Trapdoor.png"><a href="#">
+                                            <p>Tek_Replicator</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Window.png">
+                                        <a href="#">
+                                            <p>Janela Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Windowframe.png">
+                                        <a href="#">
+                                            <p>Tek Windowframe</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Dinosaur_Gate.png">
+                                        <a href="#">
+                                            <p>Portão Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Dinosaur_Gateway.png">
+                                        <a href="#">
+                                            <p>Portão Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Door.png">
+                                        <a href="#">
+                                            <p>Porta Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Doorframe.png">
+                                        <a href="#">
+                                            <p>Batente Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Generator.png">
+                                        <a href="#">
+                                            <p>Gerador Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Rifle.png">
+                                        <a href="#">
+                                            <p>Rifle Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Trough.png">
+                                        <a href="#">
+                                            <p>Cocho Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Large_Tek_Wall.png">
+                                        <a href="#">
+                                            <p>Parede Larga Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Rex_Tek_Saddle.png">
+                                        <a href="#">
+                                            <p>Sela Rex Tek</p>
+                                        </a>
+                                    </div>
+                                    <div class="item_tek col-lg-3">
+                                        <img class="elemento" alt="Telhado Tek"
+                                            src="/Survival/Ark/Img/icon-tek/Tek_Grenade.png">
+                                        <a href="#">
+                                            <p>GranadaTek</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Conquitas">
+        <div class="container box-color box-conquitas">
+
+            <h1>Conquistas</h1>
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="col-lg-12  img_conquist">
+                            <a><img src="/Survival/Ark/Img/conquitas/conquista-b.png" class="img-fluid"></a>
+                            <h2>Sobrevivente Especialista</h2>
+                        </div>
+                        <h4>Você derrotou o segundo Guardião do ARK!</h4>
+                    </div>
+                    <div class="col-lg-6 conquista_plataformas">
+                        <img src="/arquivos-surv/ico-plat/Steam.png">
+                        <img src="/arquivos-surv/ico-plat/Epic_Games.png">
+                        <img src="/arquivos-surv/ico-plat/Xbox_One.png">
+                        <img src="/arquivos-surv/ico-plat/PS.png">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="box-video-boss">
+        <div class="container box-color box-boss-video">
+            <div class="row">
+                <h1>Video Arena Broodmother</h1>
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6 video-app">
+                            <h3>Rex</h3>
+                            <div class="embed  box-color">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe src="https://www.youtube.com/embed/sDOtpgxUha4"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="box_contrucao">
+        <div class="container box_contrucao box-color">
+            <div class="row">
+                <h1>Pagina em contrução</h1>
+                <h2>Projeto somente para Exercícios</h2>
+            </div>
+            <div class="col-lg-12">
+                <img src="/Survival/Ark/Img/construcao.png" class="img-fluid">
+            </div>
+            <h3>Projeto 1.7.8</h3>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="container footer box-color">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="par_logo">
+                        <div class="redes">
+                            <h1>Siga-nos</h1>
+                            <div id="box_icon_foot">
+                                <a href="https://github.com/edcos82" class="ico_footer"><img
+                                        src="/arquivos-surv/Icons/logotipo-32p.png" alt="icone github"></a>
+                                <a href="#" class="ico_footer"><img src="/arquivos-surv/Icons/linkedin-32p.png"
+                                        alt="icone linkdin"></a>
+                                <a href="#" class="ico_footer"><img src="/arquivos-surv/Icons/instagram-32p.png"
+                                        alt="icone instagram"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <ul class="par_midia">
+                        <li>
+                            <h3>Midia</h3>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">PlayLists Trilha Sonora</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">PlayLists Creatuas</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">PlayLists Sons Creatuas</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <ul class="par_midia">
+                        <li>
+                            <h3>Bau</h3>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">PlayLista</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Revistas</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer_link">Games Playes</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="box_increv">
+                        <h3>Subscreva</h3>
+                        <p> Digite seu e-mail para ser notificado sobre nossas novidades</p>
+
+                        <div class="footer_email">
+                            <input type="email" class="e-mail">
+                            <button>
+                                <i class="fa-regular fa-envelope"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer_copy">
+                Organizações Edcos82
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="/js/carrosel-tek.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
