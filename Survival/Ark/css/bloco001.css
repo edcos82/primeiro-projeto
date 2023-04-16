@@ -1,0 +1,25 @@
+.bloco001 {
+    border: 3px solid red;
+}
+
+.blocoloja {
+    border: 3px solid orange;
+}
+
+.ale {
+    border: 3px solid rgb(90, 221, 51);
+}
+
+.dlcimagem {
+    border: 3px solid wheat;
+   
+}
+
+.dlc ul il{
+    text-decoration: none;
+}
+
+/*
+.botao_dlc:hover {
+    transform: scale(1.1);
+} */
